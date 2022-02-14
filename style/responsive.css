@@ -1,0 +1,341 @@
+@media ( max-width: 1400px ){
+    .main-body p{
+        padding-left: unset;
+    }
+}
+@media ( max-width: 1000px ){
+    header h1{
+        font-size: 4.1rem;
+        font-weight: 700;
+    }
+    header p{
+        font-size: 1rem;
+    }
+    .bi-arrow-down-circle{
+        font-size: 3.5rem;
+    }
+    .header-post h2{
+        font-size: 3.1rem;
+    }
+    .header-post p , .date{
+        font-size: 1rem;
+    }
+    .btn{
+        font-weight: 700;
+        width: 160px;
+        padding: 13px 35px;
+        border-width: 2px;
+    }
+    .main-body h2{
+        font-size: 1.2rem;
+    }
+    .main-body .btn{
+        width: 130px;
+        font-size: 0.65rem;
+        font-weight: 800;
+        padding: 13px 25px;
+    }
+    .main-body p{
+        font-size: 1rem;
+    }
+    .pagination a{
+        font-size: 0.7rem;
+        font-weight: 800;
+    }
+    .page-link{
+        padding: 8px 18px;
+    }
+    #second{
+        margin-left: 0.15px;
+    }
+    .btn-outline-secondary{
+        font-size: 0.7rem;
+        width: 170px;
+        font-weight: 700;
+        padding: 12px 3px;
+    }
+    .nav{
+        font-size: 0.7rem;
+    }
+    .social-nav a{
+        font-size: 1.1rem;
+    }
+
+}
+@media ( max-width: 991px ){
+    .nav-bar{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        position: fixed;
+        align-items: center;
+    }
+    .menu a{
+        border-bottom: unset;
+    }
+    .about-main{
+        padding-bottom: 20px;
+    }
+    .date-header .date::before{
+        width: 30%;
+    }
+    .date-header .date::after{
+        width: 30%;
+    }
+    .header-post h2{
+        font-size: 2.9rem;
+    }
+    .header-post p{
+        font-size: 0.99rem;
+    }
+    .main-body h2{
+        font-size: 1.1rem;
+    }
+    .main-body p{
+        font-size: 0.99rem;
+    }
+    .btn-outline-secondary{
+        font-size: 0.85rem;
+        width: 180px;
+        font-weight: 700;
+        padding: 15px 3px;
+    }
+    .about p , .about a{
+        font-size: 0.9rem;
+    }
+    .copy-right , .copy-right a{
+        font-size: 0.69rem;
+    }
+}
+@media ( max-width: 768px ){
+    .menu{
+        width: 90px;
+        height: 40px;
+        font-weight: 800;
+        font-size: 0.7rem;
+    }
+    .menu-icon{
+        padding-left: 12px;
+    }
+    .fa-bars{
+        font-weight: 800 !important;
+        font-size: 0.8rem !important;
+    }
+    .date-header .date::before{
+        width: 25%;
+    }
+    .date-header .date::after{
+        width: 25%;
+    }
+    .header-post h2{
+        font-size: 2.6rem;
+    }
+    .header-post p{
+        font-size: 0.89rem;
+    }
+    .main-body h2{
+        font-size: 1.1rem;
+    }
+    .btn-outline-secondary{
+        font-size: 0.8rem;
+        width: 160px;
+        padding: 15px 3px;
+    }
+    .copy-right ul{
+        padding-right: 40px;
+    }
+    .pagination a{
+        font-size: 0.66rem;
+        font-weight: 700;
+    }
+    .page-link{
+        padding: 7px 17px;
+    }
+}
+@media ( max-width: 576px ){
+    .menu{
+        width: 80px;
+        height: 35px;
+        font-weight: 800;
+        font-size: 0.6rem;
+    }
+    .menu-icon{
+        padding-left: 10px;
+    }
+    .fa-bars{
+        font-weight: 800 !important;
+        font-size: 0.7rem !important;
+    }
+    .date-header .date::before{
+        width: 20%;
+    }
+    .date-header .date::after{
+        width: 20%;
+    }
+    header h1{
+        font-size: 3.9rem;
+        font-weight: 600;
+    }
+    header p{
+        font-size: 0.85rem;
+    }
+    .bi-arrow-down-circle{
+        font-size: 3.3rem;
+    }
+    .header-post h2{
+        font-size: 2.2rem;
+    }
+    .header-post p{
+        font-size: 0.79rem;
+    }
+    .main-body h2{
+        font-size: 1rem;
+    }
+    .date , .main-body .date{
+        font-size: 0.9rem;
+    }
+    .main-body p{
+        font-size: 0.89rem;
+    }
+    .pagination a{
+        font-size: 0.64rem;
+        font-weight: 700;
+    }
+    .page-link{
+        padding: 5px 15px;
+    }
+    .about label {
+        font-weight: 700;
+    }
+    .about h3{
+        font-weight: 700;
+        font-size: 0.7rem;
+    }
+    .about p , .about a{
+        font-size: 0.8rem;
+    }
+    .btn-outline-secondary{
+        font-size: 0.65rem;
+        width: 150px;
+        font-weight: 700;
+        padding: 10px 3px;
+    }
+    .social-about{
+        margin-right: 15px;
+    }
+    .social-div i{
+        bottom: 11px;
+        left: 10px;
+    }
+    .copy-right ul li{
+        display: flex !important;
+        border: unset !important;
+        justify-content: center;
+        margin-bottom: 15px;
+
+    }
+    .copy-right , .copy-right a{
+        font-size: 0.65rem;
+        font-weight: 700;
+        line-height: 1;
+    }
+    .social-main div{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+@media ( max-width: 400px ){
+    .menu{
+        width: 75px;
+        height: 32px;
+        font-weight: 800;
+        font-size: 0.6rem;
+    }
+    .menu-icon{
+        padding-left: 8px;
+    }
+    .fa-bars{
+        font-weight: 700 !important;
+        font-size: 0.7rem !important;
+        padding-right: 8px;
+    }
+    .date-header .date::before{
+        width: 15%;
+    }
+    .date-header .date::after{
+        width: 15%;
+    }
+    header h1{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    header p{
+        font-size: 0.68rem;
+    }
+    .bi-arrow-down-circle{
+        font-size: 3rem;
+    }
+    .header-post h2{
+        font-size: 1.8rem;
+    }
+    .header-post p{
+        font-size: 0.68rem;
+    }
+    .main-body h2{
+        font-size: 0.92rem;
+    }
+    .date , .main-body .date{
+        font-size: 0.7rem;
+    }
+    .main-body p{
+        font-size: 0.8rem;
+    }
+    .main-body .btn{
+        width: 110px;
+        font-size: 0.6rem;
+        font-weight: 700;
+        padding: 10px 20px;
+    }
+    .pagination a{
+        font-size: 0.62rem;
+        font-weight: 700;
+    }
+    .page-link{
+        padding: 0px 8px;
+    }
+    .about label {
+        font-weight: 600;
+        font-size: 0.6rem;
+    }
+    .about h3{
+        font-weight: 600;
+        font-size: 0.6rem;
+    }
+    .about p , .about a{
+        font-size: 0.6rem;
+    }
+    .btn-outline-secondary{
+        font-size: 0.6rem;
+        width: 130px;
+        font-weight: 600;
+        padding: 7px 3px;
+    }
+    .social-about{
+        margin-right: 10px;
+    }
+    .social-main div{
+        width: 27px;
+        height: 27px;
+    }
+    .social-div i{
+        bottom: 11px;
+        left: 9px;
+    }
+    .copy-right , .copy-right a{
+        font-size: 0.5rem;
+        font-weight: 600;
+    }
+
+}
